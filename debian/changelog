@@ -1,0 +1,43 @@
+node-methods (1.1.2-1) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 12
+  * Declare compliance with policy 4.4.1
+  * Change section to javascript
+  * Change priority to optional
+  * Add debian/gbp.conf
+  * Add upstream/metadata
+  * Update VCS fields to salsa
+  * Switch test and install to pkg-js-tools
+  * New upstream version 1.1.2
+  * Update homepage
+
+ -- Xavier Guimard <yadd@debian.org>  Sun, 20 Oct 2019 13:29:30 +0200
+
+node-methods (1.1.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Add support to autopkgtest
+  * debian/copyright:
+    - add Upstream-Contact
+    - release debian files with the same license of upstream: Expat
+  * debian/rules: disabled colors during tests
+
+ -- Leo Iannacone <l3on@ubuntu.com>  Wed, 09 Jul 2014 10:10:17 +0200
+
+node-methods (1.0.1-1) unstable; urgency=medium
+
+  * New upstream release.
+  * debian/copyright: drop comment on license issue
+  * debian/rules:
+    + enable tests
+    + install History.md as upstream changelog
+  * debian/control: add node-mocha as build-dep
+
+ -- Leo Iannacone <l3on@ubuntu.com>  Fri, 06 Jun 2014 14:02:01 +0200
+
+node-methods (0.1.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #744767)
+
+ -- Leo Iannacone <l3on@ubuntu.com>  Tue, 22 Apr 2014 22:31:48 +0200

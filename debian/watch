@@ -1,0 +1,3 @@
+version=3
+opts=filenamemangle=s/.*\/v?([\d\.-]+)\.tar\.gz/node-methods-$1.tar.gz/ \
+ https://github.com/visionmedia/node-methods/tags .*/archive/v?([\d\.]+).tar.gz
